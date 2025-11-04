@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Glow & Grace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <div class="container nav">
+      <a class="brand" href="index.html">Glow & Grace</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger4">☰</button>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <section class="page-header">
+      <h1>Contact</h1>
+      <p>Have a question or want to book? Send us a message.</p>
+    </section>
+
+    <section class="contact-grid">
+      <form id="contactForm" class="contact-form" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn primary">Send Message</button>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-info">
+        <h3>Visit Us</h3>
+        <p>Jagatpura, Jaipur</p>
+        <h3>Call</h3>
+        <p>+91 8002709804</p>
+        <h3>Follow</h3>
+        <p>@glowgrace</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Glow & Grace</h4>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span id="year4"></span> Glow & Grace Salon</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
